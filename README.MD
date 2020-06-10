@@ -62,7 +62,7 @@ The services are briefly described below.
                        c. When the backend receives the channel_occupied or channel_vacated 
                           notifications, it re-calculates the visitor count and broadcasts the new
                           value on the visitor-updates channel 
-        Now that our serverless environment, our backend (handler.js), and our handlebars template (home.hbs) are scripted, we simply need to 
+        Now that our serverless environment, our backend (handler.js), and our handlebars template (home.hbs) are scripted, we simply need to, 
 
         1. Pass our IAM credentials to AWS to grant serverless access
         2. Deploy the service by running "serverless deploy"
